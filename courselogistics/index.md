@@ -1,4 +1,4 @@
-CS3100 - Data Structures and Algorithms II Course Logistics
+Advanced Data Structures and Algorithms
 ===============================
 
 [Back to main page](../readme.html)
@@ -15,35 +15,30 @@ The syllabus for the course can be found [here](./syllabus.pdf). Most (but not a
 
 Lectures will be held in-person in the classroom listed on the University Registrar. Lectures will be recorded for the convenience of those who cannot intend or prefer not to for any reason. At the time of writing, mask mandates have been repealed and wearing a mask in lecture is optional. 
 
-<a name="covid"></a>Covid-19 Policies and FAQ
-------------------------------------------
-Everyone please read this page on [policies and information about how Covid-19 will affect our course](./covid.html).
 
 <a name="textbook"></a>Textbook
 ------------------------------------------
 
 You will really need to read and study material other than the slides. There are many choices where you can get more details about our topics, but a textbook is the easiest option.
 
-We’ll post readings from the following textbook, and we urge you to read them or get that info from another source.
+We’ll post readings from the following two sources (one is a textbook, the other a curated website of algorithms concepts). We urge you to read them or get that info from another source.
 
 *Introduction to Algorithms* by Cormen, et. al., 3rd edition.  Referred to as "CLRS".  UVA Library has a digital version of CLRS available [online for free](https://search.lib.virginia.edu/catalog/u6757775)
+* CP-Algorithms. A curated website of algorithm ideas for competitive programming (https://cp-algorithms.com)
 
 
 <a name="lectures"></a>Quizzes
 ------------------------------------------
 
-The course is divided into **8 modules**, each which lasts for about 5 lectures (almost 2 weeks). The 8 modules are listed below:
+The course is divided into **5 modules**, each of variable length (usually 6-15 lectures). The 5 modules are listed below (in no particular order):
 
-- **Module 1: Graphs - Introduction**
-- **Module 2: Graphs - Advanced** 
-- **Module 3: Divide and Conquer Algorithms**
-- **Module 4: Greedy Algorithms** 
-- **Module 5: Dynamic Programming** 
-- **Module 6: Network Flow / Bi-Partite Matching** 
-- **~~Module 7: NP-Completeness~~** (NOTE: Canceled! Everyone earns free high pass)
-- **~~Module 8: Machine Learning Algorithms~~** (NOTE: Canceled! Everyone earns free high pass)
+- **Linear Programming**
+- **Computational Geometry** 
+- **Approximation Algorithms**
+- **Advanced Tree Structures** 
+- **Little Algorithms** 
 
-The course contains exactly **8 quizzes** (one per module). Each quiz can be taken multiple times, and each quiz can be in one of 3 states:
+The course contains exactly **5 quizzes** (one per module). Each quiz can be taken multiple times, and each quiz can be in one of 3 states:
 
 - **Incomplete**: The quiz has not been passed to any level of satisfaction yet.
 - **Pass**: The student has shown sufficient knowledge in this topic area. The grade on this quiz was at least **70 percent (e.g., 14/20)**.
@@ -54,13 +49,13 @@ You will always earn your **highest mark** on any quiz across all attempts. So, 
 <a name="final"></a>Final Exam
 ----------------------------------------------------------
 
-There is no traditional final exam in this course. During the final exam time, you will be given one last attempt at all ~~8~~ (6) of the course quizzes. This is your last chance to pass any quizzes that are still outstanding. If you have passed all topics (or are already happy with your final grade), then you may choose not to take the final.
+There is no traditional final exam in this course. During the final exam time, you will be given one last attempt at all 5 of the course quizzes. This is your last chance to pass any quizzes that are still outstanding. If you have passed all topics (or are already happy with your final grade), then you may choose not to take the final.
 
 
 <a name="homeworks"></a>Homeworks
 ----------------------------------------------------------
 
-There are **one or two homework assignments per module (depending on the module)**, that must be completed in order to pass that module (more on passing modules in a moment). The homeworks in this course were designed with the following goals / principles in mind:
+There is **one homework assignment per module**, that must be completed in order to pass that module (more on passing modules in a moment). The homeworks in this course were designed with the following goals / principles in mind:
 
 - **Goal 1**: Homework should be somewhat low-stress to pass, but provide opportunity for deep, reflective practice with the material.
 - **Goal 2**: Every student should be required to show effort / progress on homework. Essentially, a student should provide evidence of engaging with the homework even if the quality of the work is not yet perfect.
@@ -98,61 +93,22 @@ Your letter grade in this course corresponds to the number **MODULES you have pa
 | Letter Grade | Modules Passed | Modules High-Pass |
 |:--------------:|:---:|:---:|
 | F | - | - |
-| D- | 5 | 0 |
+| D- | 3 | 0 |
 | D | - | 1 |
-| D+ | 6 | 0 |
-| C- | - | 2 |
-| C | 7 | 0 |
+| D+ | - | 2 |
+| C- | 4 | 0 |
+| C | - | 2 |
 | C+ | - | 3 |
-| B- | 8 | 0 |
-| B | - | 3 |
-| B+ | - | 5 |
-| A- | - | 7 |
-| A | - | 8 |
+| B- | 5 | 0 |
+| B | - | 2 |
+| B+ | - | 3 |
+| A- | - | 4 |
+| A | - | 5 |
 
 **Legend**
 
 - A **blank row** translates to *No change from the row above*. This makes the table easier to read.
 - The number of modules at **high pass** is NOT summative. For example, the row for **B** says 8 modules passed, and 3 of those 8 must be at the high-pass level (It is NOT the case that you need 3 additional modules at the high-pass level)
-
-<a name="lettergrades"></a>Policy on NC / GC / CR
-----------------------------------------------------------
-
-As most of you know, the University is allowing students to translate their grades from **letter grades** to **pass/fail** grades AFTER you see your final grade. The process for requesting and making this change will be handled by the registrar and not by instructors. This section highlights some general issues regarding this that you should be aware of.
-
-### Grade Translation
-
-The grade translation works as scene in the chart below:
-
-| Letter Grade | Pass/Fail Grade |
-|:--------------:|:---:|
-| F | NC |
-| D- | GC |
-| D | GC |
-| D+ | GC |
-| C- | GC |
-| C | CR |
-| C+ | CR |
-| B- | CR |
-| B | CR |
-| B+ | CR |
-| A- | CR |
-| A | CR |
-
-We will **not be making any alterations to our grading policy** and your grade will be submitted as specified in the previous section.
-
-### Prerequisites
-
-In CS, we require a **C- or better** OR **CR** to meet prerequisites for future CS courses. This means that if you earn a grade of C-, you need to be deliberate about whether you choose to convert that C- into a GC or not. We have a separate recommendation depending on which curriculum track you are on (see below).
-
-### If you are on the OLD curriculum (i.e., you took CS2150)
-
-If you took CS2150 and are on the old curriculum, then DSA2 is **not a prerequisite for any future CS course**. This means that if you earn a C-, you can safely change it into a GC if you'd like without disrupting your graduation.
-
-### If you are on the NEW curriculum (i.e., you took DSA1)
-
-If you are on the new curriculum then DSA1 **IS a prerequisite for future CS courses**. If you earn a C-, then you have a (possibly difficult) choice to make. Your C- will allow you to continue to work towards the major, but will hurt your GPA. A GC will help your GPA, but will mean you need to retake that class to meet the prerequisite requirement. This is, of course, up to you. 
-
 
 
 

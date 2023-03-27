@@ -30,7 +30,7 @@
 \begin{document}
 
 %\textbf{\Large UNDER CONSTRUCTION!!!}\\
-\textbf{\Large CS 3100: DSA2} \hfill \textbf{\Large Fall 2022}
+\textbf{\Large Advanced Data Structures and Algorithms} \hfill \textbf{\Large Fall 2022}
 
 \vskip 0.5in 
 
@@ -56,33 +56,33 @@
 \textbf{Teaching Assistants:} See course website.  Office hours will be done in-person.
 
 \vskip 0.1in
-\textbf{Course website:} {\tt https://markfloryan.github.io/dsa2/} (We will also use Collab.)
+\textbf{Course website:} {\tt https://markfloryan.github.io/advAlgo/} (We will also use Collab.)
 
-\textbf{Prerequisites:} CS 2120 (or equivalent) and CS 2100 (or equivalent) with grades of C- or higher, and math knowledge from APMA 1090 or MATH 1210 or MATH 1310. (Prerequisites are important to this course and will be enforced!)
+\textbf{Prerequisites:} CS 3100 (or equivalent) with grades of C- or higher, and math knowledge from APMA 1090 or MATH 1210 or MATH 1310. (Prerequisites are important to this course and will be enforced!)
 
 \section*{Overview}
 
-\textbf{Course Description:} Builds upon previous analysis of algorithms and the effects of data structures on them. Algorithms selected from areas such as searching, shortest paths, greedy algorithms, backtracking, divide-and-conquer, dynamic programming, and machine learning. Analysis techniques include asymptotic worst case, expected time, amortized analysis, and reductions.
+\textbf{Course Description:} Builds upon the foundational material in data structures and algorithms. Introduces advanced applications of data structures such as fenwick trees, quad trees, and Van Emde Boas trees. Introduces advances algorithmic strategies such as Linear Programming, Computational Geometry algorithms, and approximation algorithms.
 
-\textbf{Availability:} It is important to us to be available to our students, and to address their concerns.  If you cannot meet with either of us during our office hours, e-mail us and we will find the time to meet. That being said, like everybody else we are quite busy, so it may take a day or more to find a time to meet. And if you have any comments on the course---what is working, what is not working, what can be done better, etc.---we are very interested in hearing about them.  Please send Prof.\ Floryan or one of the TAs an e-mail or post privately on Piazza to the instructors.  When sending email, include ``CS3100'' in the subjecdt line. If your question could be answered by either professor or even a TA, a post on Piazza to "instructors" may get a faster response.
+\textbf{Availability:} It is important to us to be available to our students, and to address their concerns.  If you cannot meet with either of us during our office hours, e-mail us and we will find the time to meet. That being said, like everybody else we are quite busy, so it may take a day or more to find a time to meet. And if you have any comments on the course---what is working, what is not working, what can be done better, etc.---we are very interested in hearing about them.  Please send Prof.\ Floryan or one of the TAs an e-mail or post privately on Piazza to the instructors.  When sending email, include ``Advanced Algo'' in the subject line. If your question could be answered by either professor or even a TA, a post on Piazza to "instructors" may get a faster response.
 
 
 \textbf{Course Objectives:} Students who complete the course will:
 \begin{itemize}
-    \item Comprehend \textit{fundamental ideas in algorithm analysis}, including: time and space complexity; identifying and counting basic operations; order classes and asymptotic growth; lower bounds; optimal algorithms. 
-    \item Apply these fundamental ideas to \textit{analyze and evaluate important problems and algorithms} in computing, including search, sorting, graph problems, and optimization problems.
-    \item \textit{Apply appropriate mathematical techniques in evaluation and analysis}, including limits, logarithms, exponents, summations, recurrence relations, lower-bounds proofs and other proofs.
-    \item \textit{Comprehend, apply and evaluate the use of algorithm design techniques} such as divide and conquer, the greedy approach, dynamic programming, and exhaustive or brute-force solutions.
-    \item Be exposed to the fundamental ideas related to the \textit{problem classes NP and NP-complete}, including their definitions, their theoretical implications, Cook's theorem, etc. Be exposed to the design of polynomial reductions used to prove membership in NP-complete.
+    \item Solve challenging optimizations by modeling problems as linear programs and using / understanding linear programming algorithms. 
+    \item Take advantage of representation structures of data to more efficiently store and retrieve data.
+    \item Apply analysis concepts to determine the efficacy of approximation algorithms where the optimal solution is unlikely to be found.
+    \item Gain an understanding of common algorithmic ideas when working with geometric problems including convex hulls, and large geometric data sets.
+    \item Be exposed to numerous small but useful algorithms that can be used as common sub-routines to solve larger problems.
 \end{itemize}
 
 \textbf{Textbook:} \textit{Introduction to Algorithms, Third Edition} by Cormen, et. al. (ISBN 0262033844).\\
 UVA Library makes a digital version of our textbook available online at\\\url{https://search.lib.virginia.edu/catalog/u6757775}\\
 %\textbf{Note:} How much we ask you to read from this textbook may vary between instructors. Your instructor will say more about this in class.
 
-\textbf{Additional Resources:} We will make additional optional textbooks and resources available on the course website.
+\textbf{Additional Resources:} We will also be using the CP-Algorithms website, which is a curated library of advanced algorithms (found at \url{https://cp-algorithms.com})
 
-\section*{Class Delivery and Covid-19:}
+\section*{Class Delivery}
 
 Lectures and quizzes will be given in-person.  (If the university changes its policy due to changing circumstances, this may change. We will follow university guidance in such matters.) We will do our best to make recordings of lectures available on the Collab site.
 
@@ -98,33 +98,29 @@ We will follow the university's guidance on dealing with Covid, including wearin
 
 \section*{Coursework and Grading}
 
-The course is divided into 8 {\bf modules}:
+The course is divided into 5 {\bf modules}:
 \begin{itemize}
-    \item Graphs - Introduction
-    \item Graqphs - Advanced
-    \item Divide and Conquer Algorithms
-    \item Greedy Algorithms
-    \item Dynamic Programming
-    \item Network Flow \& Bi-Partite Matching
-    \item NP-Completeness
-    \item Machine Learning
+    \item Linear Programming
+    \item Computational Geometry
+    \item Approximation Algorithms
+    \item Advanced Tree Structures
+    \item Little Algorithms
 \end{itemize}
-Most modules are 5 lectures worth of content (but a few are 4 or 6). The schedule is shown on the website. 
+
+Most modules are 5-12 lectures worth of content. The schedule is shown on the website. 
+
 For each module, there will be:
 \begin{itemize}
-    \item 1 or 2 homeworks (written or programming)
+    \item 1 homework assignment
     \item 1 quiz
 \end{itemize}
 
 \textbf{Quizzes:}  Each quiz is a short assessment of your knowledge of a module. So quizzes are meant to ensure you clearly demonstrate competence regarding the individual topics for that module.  You will have multiple opportunities to take each quiz (3 attempts for most, but later quizzes may only have 2 attempts).
 
 Quizzes will be given in-person in your scheduled lecture time as follows:\\
+
 \begin{tabular}{ll}
-Mon, Sep. 26	&	Mod 1-2 (first attempts) \\
-Mon, Oct. 24	&	Mod 1-2 (second attempt), 3-4 (first attempt) \\
-Fri, Nov. 18	&	Mod 3-4 (second attempt), 5-6 (first attempt) \\
-Mon, Dec. 5	    &	Mod 5-6 (second attempt), 7-8 (first attempt) \\
-Final Exam period, TBD 	&	Mod 1-8 (final attempts) \\
+TBD
 \end{tabular}
 
 \textbf{Quiz Makeup Policy:} Quiz makeups, in general, will not be allowed for any reason. The quizzes are designed such that each student is entitled to more than one attempt at each quiz. Therefore, if a quiz is missed for any reason AND the student still has more than one attempt at the quizzes in question available then no makeup will be provided.\\
