@@ -14,7 +14,7 @@ The syllabus for the course can be found [here](./syllabus.pdf). Most (but not a
 
 **Lectures** will be held in-person in the classroom listed on the University Registrar. Lectures will be recorded for the convenience of those who cannot intend or prefer not to for any reason.
 
-The **class schedule** depends on the day of the week. On Mondays and Wednesdays, we will have a traditional lecture in which material is presented to you by the instructor. On Fridays, we will do one of three things: Take an in-person quiz (4 total), work together on a homework assignment (6 total), or cancel class. 
+The **class schedule** depends on the day of the week. On Mondays and Wednesdays, we will have a traditional lecture in which material is presented to you by the instructor. On Fridays, we will do one of three things: Take an in-person quiz (2 total), work together on a homework assignment (6 total), or cancel class. 
 
 **Class attendance is mandatory**. Every lecture, I will have a computer program randomly select 20 names from the roster. If your name is chosen and you are not present on class for any reason, then your participation score will drop by 2 percentage points (you will lose 2 of the 12 percent participation grade). I have a good reason for instituting this policy, which will be justified to you in person during the first class period.
 
@@ -53,7 +53,7 @@ There will be **six programming challenges** that we will give for homework. Eac
 <a name="lectures"></a>Quizzes
 ------------------------------------------
 
-There will be four quizzes given throughout the term. Please reference the course schedule for details on the dates and content of each quiz. Each quiz will be short and is meant to quickly test your basic understanding of the concepts from class. These will be held in-person, in-class, on specific **Fridays** throughout the term. The schedule can be referenced to see which Friday class periods have quizzes scheduled.
+There will be two quizzes given throughout the term. Please reference the course schedule for details on the dates and content of each quiz. Each quiz will be short and is meant to quickly test your basic understanding of the concepts from class. These will be held in-person, in-class, on specific **Fridays** throughout the term. The schedule can be referenced to see which Friday class periods have quizzes scheduled.
 
 
 <a name="final"></a>Final Project
@@ -75,8 +75,8 @@ More details on this project will be provided once it is available.
 This course will use a **standard weighted-average grading system**. The grade breakdown is shown below:
 
 
-- **Homework (30 percent)**: There will be six programming challenges which account in total for 30 percent of the final grade.
-- **Quizzes (40 percent)**: There will be four in-class quizzes which account for 40 percent of the final grade.
+- **Homework (40 percent)**: There will be six programming challenges which account in total for 30 percent of the final grade.
+- **Quizzes (30 percent)**: There will be two in-class quizzes which account for 30 percent of the final grade.
 - **Attendance (12 percent)**: Attendance and participation are required in this course. Every lecture, a random subset of students will be chosen by a computer program for attendance. If your name is chosen and you are not present, you will lose 2 of these 12 percentage points.
 - **Final Project (18 percent)**: There will be a final project in which groups of students study, implement, prepare, and present one advanced algorithm of their choosing. Details will be available on the course website.
 
