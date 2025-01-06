@@ -29,12 +29,12 @@ We have one instructor and multiple **TAs** for the course. Their names and emai
 
 ### Instructors / Head TAs
 
-| Name | Head TA / Inst. | TA Category | Email |
-|-|-|-|-|
-| Mark Floryan | Instructor | - | [mrf8t@virginia.edu](mailto:mrf8t@virginia.edu) |
-| Nicholas Winschel| TA | - | [pvz6tx@virginia.edu](mailto:pvz6tx@virginia.edu) |
-| Varun | TA | Homework Grading | [cgm5sa@virginia.edu](mailto:cgm5sa@virginia.edu) |
-| Vagul | Head TA | Piazza | [dub5nq@virginia.edu](mailto:dub5nq@virginia.edu) |
+| Name | Head TA / Inst. | Email |
+|-|-|-|
+| Mark Floryan | Instructor | [mrf8t@virginia.edu](mailto:mrf8t@virginia.edu) |
+| Nicholas Winschel| TA | [pvz6tx@virginia.edu](mailto:pvz6tx@virginia.edu) |
+| Varun | TA | [cgm5sa@virginia.edu](mailto:cgm5sa@virginia.edu) |
+| Vagul | Head TA | [dub5nq@virginia.edu](mailto:dub5nq@virginia.edu) |
 
 
 <a name="officehours"></a>Office Hours Description and Schedule
