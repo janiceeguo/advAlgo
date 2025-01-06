@@ -30,17 +30,17 @@
 \begin{document}
 
 %\textbf{\Large UNDER CONSTRUCTION!!!}\\
-\textbf{\Large Advanced Data Structures and Algorithms} \hfill \textbf{\Large Fall 2022}
+\textbf{\Large Advanced Algorithms and Imp.} \hfill \textbf{\Large Spring 2024}
 
 \vskip 0.5in 
 
 \makebox[\textwidth][c]{
 \begin{tabular}{p{2.6in}p{2.6in}}
-    \textbf{MWF 12:00 pm--12:50 pm } & \textbf{MWF 1:00 pm--1:50 pm}\\
+    \textbf{MWF 9:00 am--9:50 pm } \\
     \textbf{Instructor:} Mark Floryan & \\
     Email: \url{mfloryan@cs.virginia.edu} & \\
     Office: Rice Hall 203 & \\
-   Office Hours: TBD. See course website & \\
+    Office Hours: TBD. See course website & \\
 %   &  \hskip 0.2in  Mo/We 1:30--2:30 pm; and,\\
 %   &  \hskip 0.2in Tu noon--12:45 pm; and,\\
 %   &  \hskip 0.2in  Fr 11:00--noon\\
@@ -98,72 +98,48 @@ We will follow the university's guidance on dealing with Covid, including wearin
 
 \section*{Coursework and Grading}
 
-The course is divided into 5 {\bf modules}:
+The course is divided into 7 overall {\bf modules / topics}:
 \begin{itemize}
+    \item Fenwick Trees
+    \item Segment Trees
     \item Linear Programming
     \item Computational Geometry
+    \item Van Emde Boas Trees
     \item Approximation Algorithms
-    \item Advanced Tree Structures
-    \item Little Algorithms
+    \item Little Algorithms (Final Project)
 \end{itemize}
 
-Most modules are 5-12 lectures worth of content. The schedule is shown on the website. 
+Most modules are 3-5 lectures worth of content. The schedule is shown on the course website. 
 
-For each module, there will be:
+\textbf{Quizzes:}  There will be four short quizzes throughout the semester, which will be taken on four Fridays throughout the term. Each quiz is a short assessment of your knowledge of one module / topic. Quizzes are meant to ensure you clearly demonstrate competence regarding the individual topics for that module.
+
+Please consult the course website for the specific dates on which quizzes will occur:\\
+
+\textbf{Quiz Makeup Policy:} Quiz makeups, in general, will not be allowed for any reason. Should you not be able to attend a quiz day due to a legitimate reason (illness, family emergency, religious observance, etc.) then a makeup quiz will be provided during the scheduled final exam time. This makeup quiz will be a cumulative quiz that covers all topics for the course and will be slightly (though not significantly) longer than a normal quiz.
+
+\textbf{Homeworks:} All homework assignments will be advanced ``programming challenges.'' Programming assignments can be implemented in Python, Java or C++. Homeworks will be submitted on Gradescope (see Collab for link to Gradescope site) and auto-graded upon submission.
+
+\textbf{Grading:} This course will use a standard weighted-average grading system. The grade breakdown is shown below:
+
 \begin{itemize}
-    \item 1 homework assignment
-    \item 1 quiz
+    \item \textbf{Homework (30\%)}: There will be six programming challenges which account in total for 30 percent of the final grade.
+    \item \textbf{Quizzes (40\%)}: There will be four in-class quizzes which account for 40 percent of the final grade.
+    \item \textbf{Attendance / Participation (12\%)}: Attendance and participation are required in this course. Every lecture, a random subset of students will be chosen by a computer program for attendance. If your name is chosen and you are not present, you will lose 2 of these 12 percentage points.
+    \item \textbf{Final Project (18\%)}: There will be a final project in which groups of students study, implement, prepare, and present one advanced algorithm of their choosing. Details will be available on the course website.
 \end{itemize}
 
-\textbf{Quizzes:}  Each quiz is a short assessment of your knowledge of a module. So quizzes are meant to ensure you clearly demonstrate competence regarding the individual topics for that module.  You will have multiple opportunities to take each quiz (3 attempts for most, but later quizzes may only have 2 attempts).
 
-Quizzes will be given in-person in your scheduled lecture time as follows:\\
+\textbf{Submission System:} All work will be submitted via GradeScope. Details will be explained later in the course. 
 
-\begin{tabular}{ll}
-TBD
-\end{tabular}
+\textbf{Homework Late Policy:} For programming challenges, due dates will be set on the course website. Students may submit the assignment up to 5 days late with no penalty. There will be NO extensions provided beyond this 5 day window for any reason. The 5 day window is the grace period students may use and are expected to do so wisely / at their own risk.
 
-\textbf{Quiz Makeup Policy:} Quiz makeups, in general, will not be allowed for any reason. The quizzes are designed such that each student is entitled to more than one attempt at each quiz. Therefore, if a quiz is missed for any reason AND the student still has more than one attempt at the quizzes in question available then no makeup will be provided.\\
-\\
-However, if a student misses quizzes to a point that only one attempt is available at any given quiz, then a makeup quiz can be scheduled so that everyone has more than one attempt at every quiz. The student should contact the instructor to schedule this makeup. 
-
-\textbf{Homeworks:} Homeworks fall into two categories:  ``written'' and ``programming.'' Programming homeworks can use Python, Java or C++. Some assignments may require a write-up in addition to code.  Written homeworks may include small problems, runtime analysis, proofs, etc.   See section about \LaTeX{} below.
-
-\textbf{Grading:} This course has a system for determining grades that is unlike many courses, and is fully explained on the course website under ``Course Logistics.'' Full details are explained there, but here are the major points.
-\begin{itemize}
-    \item We will use a grading approach based on a an approach called {\it mastery learning\/}. Our approach tries to model the CS department's official policy on what course grades should mean, found at {\tt http://ugrads.cs.virginia.edu/grading-guidelines.html}
-    \item Quizzes are scored at one of three levels:  incomplete, pass, or high-pass.
-    \item Homeworks are scored at one of two levels:  incomplete or pass.
-    \item With some limitations, a quiz can be re-taken or homework can be re-submitted to earn a higher score.
-    \item To pass a module, you must pass the module's homework (all of them) and get a pass or high-pass on its quiz. There is a second way to pass a module: If you high-pass the quiz, but don't pass one or more homework for that module, then the module is considered passed.
-    \item To high-pass a module, you must pass all of the homework for that module AND high-pass the quiz for that module.
-    \item Your final letter grade is determined by how many modules you pass. Also, earning high-passes on modules can raise your grade a bit more.
-    \item The website has a table showing what you need to achieve to reach a particular letter grade.
-\end{itemize}
-This system is unlike that of most courses in CS you've taken, and we expect you will have questions throughout the semester. We believe it will benefit students in the course. We'll do our best to clear up any confusion throughout the course. We do reserve the right to tweak this grading system in small ways if we think it will correct a problem or better serve the class as a whole.
-
-
-\textbf{\LaTeX:} Written assignments must be typeset with \LaTeX, a professional formatting system. Tutorials on how to use \LaTeX{} will be made available when the first written problem set is released. \LaTeX{} is easily installable on many computers: 
-\begin{itemize}
-    \item Overleaf, \url{http://overleaf.com}: a Web-hosted \LaTeX{} editor which behaves much like Google Docs.
-    \item Cygwin has \LaTeX{} packages that can be installed
-    \item MiKTeX provides a stand-alone installer for Windows and Mac, \url{miktex.org}
-    \item Ubuntu and CentOS provide TeXLive packages in their repos
-    \item LyX, TexShop, TeXworks, and TeXStudio are GUI editors available either through the MiKTeX and TeXLive repos or available as separate downloads.
-\end{itemize}
-We strongly recommend using Overleaf, \url{http://overleaf.com}, since it contains all the necessary packages and works in-browser. We generally will not accept \LaTeX{} documents with images of text or formulas; \textbf{you must typeset the formulas in \LaTeX}, not in another program and have them exported as images.
-
-\textbf{Submission System:} All homeworks will be submitted via GradeScope. Details will be explained later in the course. 
-
-\textbf{Homework Late Policy:} For homeworks, there will be a suggested date to submit each homework (before the first attempt at the quiz on that module). Any homework can be submitted as late as the deadline posted on the course website (near the end of the semester).
-
-\textbf{Regrades:} We believe that the re-submission policies in this course will make re-grade requests much less frequent.  However, if you believe a quiz or homework was not graded correctly, we will allow you to make such a request. The exact procedure and policy will be announced later in the term.
+\textbf{Regrades:} Regrades will be provided for quizzes. An announcement will be made regarding these details after each quiz is graded.
 
 \section*{Collaboration Policy}
 
-\textbf{Quizzes:} Quizzes are always individual assignments; collaboration with others is not allowed.  Any solutions that share similar text or code will be considered in breach of this policy.
+\textbf{Quizzes:} Quizzes are always individual assignments; collaboration with others is not allowed. Any solutions that share similar text or code will be considered in breach of this policy.
 
-\textbf{Homeworks:} You are encouraged to collaborate with up to 4 other students in the course on each homework, but all work submitted must be your own independently written solution.  While you may discuss techniques and collectively solve the problems in your group, you may \textbf{not} share any files or look at each others' write-up or code. For instance, sharing source code files or Overleaf or Google Docs is \textbf{not} allowed.  Likewise, pair programming or sharing the debugging of code are \textbf{not} allowed.  Any solutions that share similar text or code will be considered in breach of this policy. You \textbf{must} list the names and computing IDs of all of your collaborators in your submitted \texttt{tex}, \texttt{py}, and \texttt{java} files.
+\textbf{Homeworks:} Programming challenges must be done individually (i.e., each student will submit their own individual code to Gradescope). There will be instances when we are working on homework assignments together in class. During these special class periods, collaboration with other students is fully allowed as long as code is not being directly copied from one student to another. In general, you can discuss the high-level ideas / solutions to problems openly with others, but no code can be viewed / shared across students.
 
 We encourage you \textbf{not} to seek published or online solutions for any assignment, since this is not a good way to learn. Studying code online is permitted, but only for getting ideas about how to address a programming solution. 
 Copying or reusing code from an online source violates the honor pledge for that homeowrk. 
@@ -173,7 +149,7 @@ Any submission which is discovered to be similar to a published solution or one 
 
 Note that it is a violation of this policy to submit a problem solution that you are unable to explain orally to a member of the course staff, and we reserve the right to spot-check for this requirement and to use tools like {\tt moss} etc. to detect shared code.
 
-\textbf{Penalty:} Assignments or quizzes where violations of this policy occur will receive a \textbf{zero} grade for that entire MODULE or one letter grade (if the module is already failed). Second infractions will result in a \textbf{failing (F)} grade in the course.  Any infractions will also be submitted to the Honor Committee if deemed appropriate.
+\textbf{Penalty:} Assignments or quizzes where violations of this policy occur will receive a \textbf{zero} grade for that assignment + one additional assignment of equivalent rank (homework, quiz, etc.) will be set to a zero as well. A second infractions will result in a \textbf{failing (F)} grade in the course.  Any infractions will also be submitted to the Honor Committee if deemed appropriate.
 
 \section*{Additional Information}
 
