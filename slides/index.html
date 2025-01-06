@@ -8,16 +8,21 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../markdown.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h1
@@ -34,7 +39,7 @@ Data Structures and Algorithms (Schedule and Slides)</h1>
 <col style="width: 30%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Module Num</th>
 <th>Module Name</th>
 <th>Lecture Topic</th>
@@ -42,218 +47,75 @@ Data Structures and Algorithms (Schedule and Slides)</h1>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>0</td>
 <td>Course Introduction</td>
 <td>TBD</td>
 <td>-</td>
 </tr>
-<tr class="even">
+<tr>
 <td>1</td>
+<td>Fenwick Trees</td>
+<td>An advanced array data structure</td>
+<td><a href="./Trees-FenwickTrees.pptx">Fenwick Trees</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Segment Trees</td>
+<td>An advanced tree data structure</td>
+<td><a href="./Trees-SegmentTrees.pptx">Segment Trees</a></td>
+</tr>
+<tr>
+<td>3</td>
 <td>Linear Programming</td>
-<td>Introduction to LP</td>
+<td>Introduction to LP Approach</td>
 <td><a href="./LinearProgramming-part1-Introduction.pptx">Linear
 Programming Part 1</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
-<td>Introduction to LP (cont’d)</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Dijkstra’s and Max-Flow using LP</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Min-Cost Flow</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Simplex Algorithm</td>
+<td>LP: Simplex Algorithm</td>
 <td><a href="./LinearProgramming-part2-Simplex.pptx">Linear Programming
 Part 2</a></td>
 </tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Simplex Algorithm (cont’d)</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2</td>
+<tr>
+<td>4</td>
 <td>Computational Geometry</td>
 <td>Intro / Line Intersection</td>
 <td><a href="./ComputationalGeom-part1-Intersections.pptx">Intro to
 CG</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td></td>
-<td>Multiple Line Intersection</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Point Polygon Intersection</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Convex Hull (Graham’s Scan)</td>
+<td>Convex Hull and Quad Trees</td>
 <td><a href="./ComputationalGeom-part2-ConvexHull.pptx">Quad
 Trees</a></td>
 </tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Example CH Application</td>
-<td></td>
+<tr>
+<td>5</td>
+<td>Van Emde Boas Trees</td>
+<td>An interesting and fast search tree</td>
+<td><a href="./Trees-VanEmdeBoas.pptx">vEB Trees</a></td>
 </tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Intersection of Convex Polygons</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Quad Trees 1</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Quad Trees 2</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Quad Trees 3</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3</td>
+<tr>
+<td>6</td>
 <td>Approximation Algorithms</td>
-<td>Intro and Vertex Cover</td>
+<td>Basic Approximations</td>
 <td><a href="./Approx-01-Intro.pptx">Approximation Algorithms</a></td>
 </tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>TSP Approximations</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Set-Cover Approximations</td>
-<td></td>
-</tr>
-<tr class="even">
+<tr>
 <td></td>
 <td></td>
 <td>Simulated Annealing</td>
 <td><a href="./Approx-02-SimulatedAnnealing.pptx">Simulated
 Annealing</a></td>
 </tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Simulated Annealing (cont’d)</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Advanced Trees</td>
-<td>Fenwick Trees</td>
-<td><a href="./Trees-FenwickTrees.pptx">Fenwick Trees</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Fenwick Trees (cont’d)</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Intro to Segment Trees</td>
-<td><a href="./Trees-SegmentTrees.pptx">Segment Trees</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>ST: Sum</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>ST: Update Queries</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>ST: Array Prefix Queries</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>ST: Conclusion and Final Example</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Van Emde Boas Trees</td>
-<td><a href="./Trees-VanEmdeBoas.pptx">vEB Trees</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>SuperImposing Bits and Analysis</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>Proto-vEB Trees</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>Proto-vEB Trees</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>vEB Trees</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>vEB Trees</td>
-<td></td>
-</tr>
 </tbody>
 </table>
 <h2 id="schedule"><a name="schedule"></a>Schedule</h2>
-<p><strong>Coming Soon</strong></p>
+<iframe width="100%" height="1200px" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQI0CpMUnugIMQyPjm5sC1b2htZMdcj9xn4T6Wp3l5t786cEub9mLYovKqQ6QsFZ9QnB6FtzS5OsCJ2/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
+</iframe>
 </body>
 </html>

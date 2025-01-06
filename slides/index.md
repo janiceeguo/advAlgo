@@ -11,43 +11,19 @@ Advanced Data Structures and Algorithms (Schedule and Slides)
 |Module Num|Module Name|Lecture Topic|Slides|Readings|
 |-|---|---|---|
 |0|Course Introduction|TBD|-|
-|1|Linear Programming|Introduction to LP|[Linear Programming Part 1](./LinearProgramming-part1-Introduction.pptx) | CLRS Ch. 29|
-|||Introduction to LP (cont'd)|||
-|||Dijkstra's and Max-Flow using LP|||
-|||Min-Cost Flow|||
-|||Simplex Algorithm|[Linear Programming Part 2](./LinearProgramming-part2-Simplex.pptx)||
-|||Simplex Algorithm (cont'd)|||
-|2|Computational Geometry|Intro / Line Intersection|[Intro to CG](./ComputationalGeom-part1-Intersections.pptx)|CLRS Ch. 33|
-|||Multiple Line Intersection| ||
-|||Point Polygon Intersection| ||
-|||Convex Hull (Graham's Scan)|[Quad Trees](./ComputationalGeom-part2-ConvexHull.pptx)||
-|||Example CH Application| ||
-|||Intersection of Convex Polygons| ||
-|||Quad Trees 1|||
-|||Quad Trees 2| ||
-|||Quad Trees 3| ||
-|3|Approximation Algorithms|Intro and Vertex Cover|[Approximation Algorithms](./Approx-01-Intro.pptx)|CLRS Ch. 35|
-|||TSP Approximations| ||
-|||Set-Cover Approximations| ||
+|1|Fenwick Trees|An advanced array data structure|[Fenwick Trees](./Trees-FenwickTrees.pptx)|[CP Algo](https://cp-algorithms.com/data_structures/fenwick.html#overview)|
+|2|Segment Trees|An advanced tree data structure|[Segment Trees](./Trees-SegmentTrees.pptx)|[CP Algo](https://cp-algorithms.com/data_structures/segment_tree.html)|
+|3|Linear Programming|Introduction to LP Approach|[Linear Programming Part 1](./LinearProgramming-part1-Introduction.pptx) | CLRS Ch. 29|
+|||LP: Simplex Algorithm|[Linear Programming Part 2](./LinearProgramming-part2-Simplex.pptx)||
+|4|Computational Geometry|Intro / Line Intersection|[Intro to CG](./ComputationalGeom-part1-Intersections.pptx)|CLRS Ch. 33|
+|||Convex Hull and Quad Trees|[Quad Trees](./ComputationalGeom-part2-ConvexHull.pptx)||
+|5|Van Emde Boas Trees|An interesting and fast search tree|[vEB Trees](./Trees-VanEmdeBoas.pptx)|CLRS Ch. 20|
+|6|Approximation Algorithms|Basic Approximations|[Approximation Algorithms](./Approx-01-Intro.pptx)|CLRS Ch. 35|
 |||Simulated Annealing|[Simulated Annealing](./Approx-02-SimulatedAnnealing.pptx)||
-|||Simulated Annealing (cont'd)|||
-|4|Advanced Trees|Fenwick Trees|[Fenwick Trees](./Trees-FenwickTrees.pptx)|[CP Algo](https://cp-algorithms.com/data_structures/fenwick.html#overview)|
-|||Fenwick Trees (cont'd)|||
-|||Intro to Segment Trees|[Segment Trees](./Trees-SegmentTrees.pptx)|[CP Algo](https://cp-algorithms.com/data_structures/segment_tree.html)|
-|||ST: Sum|||
-|||ST: Update Queries|||
-|||ST: Array Prefix Queries|||
-|||ST: Conclusion and Final Example|||
-|||Van Emde Boas Trees|[vEB Trees](./Trees-VanEmdeBoas.pptx)|CLRS Ch. 20|
-|||SuperImposing Bits and Analysis|||
-|||Proto-vEB Trees|||
-|||Proto-vEB Trees|||
-|||vEB Trees|||
-|||vEB Trees|||
 
 
 <a name="schedule"></a>Schedule
 --------------------------------------- 
 
- **Coming Soon**
+<iframe width="100%" height="1200px" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQI0CpMUnugIMQyPjm5sC1b2htZMdcj9xn4T6Wp3l5t786cEub9mLYovKqQ6QsFZ9QnB6FtzS5OsCJ2/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
  

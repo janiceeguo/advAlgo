@@ -8,16 +8,21 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="markdown.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h1 id="advanced-data-structures-and-algorithms">Advanced Data
@@ -50,23 +55,68 @@ the repository first</strong></p>
 <ul>
 <li><a href="courselogistics/index.html">Course Logistics</a>: The
 syllabus, introductory slide deck, grading policy, course schedule,
-Covid-19 policies, etc.</li>
+etc.</li>
 <li><a href="homeworks/index.html">Homeworks</a> (<a
 href="homeworks/index.md">md</a>): The homeworks for the course, along
 with due dates and related things.</li>
 <li><a href="slides/index.html">Schedule and Slides</a> (<a
-href="slides/index.md">md</a>): Contains the slides used in the
-course.</li>
+href="slides/index.md">md</a>): Contains the schedule for the term and
+links to the slides used in the course.</li>
 </ul>
 <h2 id="instructor-and-head-tas"><a name="headtas"></a>Instructor and
 Head TAs</h2>
-<p><strong>This section will be filled out once the course is offered
-for the first time</strong></p>
+<p>We have one instructor and multiple <strong>TAs</strong> for the
+course. Their names and emails are shown in the table below. Instructors
+are often slow at responding and the TAs can sometimes more quickly
+address your concern or escalate the situation to an instructor if
+necessary.</p>
+<h3 id="instructors-head-tas">Instructors / Head TAs</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Head TA / Inst.</th>
+<th>TA Category</th>
+<th>Email</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mark Floryan</td>
+<td>Instructor</td>
+<td>-</td>
+<td><a href="mailto:mrf8t@virginia.edu">mrf8t@virginia.edu</a></td>
+</tr>
+<tr>
+<td>Nicholas Winschel</td>
+<td>TA</td>
+<td>-</td>
+<td><a href="mailto:pvz6tx@virginia.edu">pvz6tx@virginia.edu</a></td>
+</tr>
+<tr>
+<td>Varun</td>
+<td>TA</td>
+<td>Homework Grading</td>
+<td><a href="mailto:cgm5sa@virginia.edu">cgm5sa@virginia.edu</a></td>
+</tr>
+<tr>
+<td>Vagul</td>
+<td>Head TA</td>
+<td>Piazza</td>
+<td><a href="mailto:dub5nq@virginia.edu">dub5nq@virginia.edu</a></td>
+</tr>
+</tbody>
+</table>
 <h2
 id="office-hours-description-and-schedule"><a name="officehours"></a>Office
 Hours Description and Schedule</h2>
-<p><strong>This section will be filled out once the course is offered
-for the first time</strong></p>
+<p><strong>Office Hours Coming Soon!</strong></p>
 <h2
 id="contributing-to-this-repository"><a name="contributing"></a>Contributing
 to this Repository</h2>

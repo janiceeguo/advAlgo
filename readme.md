@@ -18,20 +18,29 @@ Students are expected to have command of foundational concepts in Computer Scien
 this online at github.com -- you will need to clone (download) the
 repository first**
 
-- [Course Logistics](courselogistics/index.html): The syllabus, introductory slide deck, grading policy, course schedule, Covid-19 policies, etc.
+- [Course Logistics](courselogistics/index.html): The syllabus, introductory slide deck, grading policy, course schedule, etc.
 - [Homeworks](homeworks/index.html) ([md](homeworks/index.md)): The homeworks for the course, along with due dates and related things.
-- [Schedule and Slides](slides/index.html) ([md](slides/index.md)): Contains the slides used in the course.
+- [Schedule and Slides](slides/index.html) ([md](slides/index.md)): Contains the schedule for the term and links to the slides used in the course.
 
 <a name="headtas"></a>Instructor and Head TAs
 ------------------------------------------
 
-**This section will be filled out once the course is offered for the first time**
+We have one instructor and multiple **TAs** for the course. Their names and emails are shown in the table below. Instructors are often slow at responding and the TAs can sometimes more quickly address your concern or escalate the situation to an instructor if necessary.
+
+### Instructors / Head TAs
+
+| Name | Head TA / Inst. | TA Category | Email |
+|-|-|-|-|
+| Mark Floryan | Instructor | - | [mrf8t@virginia.edu](mailto:mrf8t@virginia.edu) |
+| Nicholas Winschel| TA | - | [pvz6tx@virginia.edu](mailto:pvz6tx@virginia.edu) |
+| Varun | TA | Homework Grading | [cgm5sa@virginia.edu](mailto:cgm5sa@virginia.edu) |
+| Vagul | Head TA | Piazza | [dub5nq@virginia.edu](mailto:dub5nq@virginia.edu) |
 
 
 <a name="officehours"></a>Office Hours Description and Schedule
 ------------------------------------------
 
-**This section will be filled out once the course is offered for the first time**
+**Office Hours Coming Soon!**
 
 
 <a name="contributing"></a>Contributing to this Repository
