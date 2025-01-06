@@ -3,112 +3,84 @@ Advanced Data Structures and Algorithms
 
 [Back to main page](../readme.html)
 
-[Syllabus](#syllabus) | [Lectures](#lectures) | [Textbook](#textbook) |[Quizzes](#quizzes) |  [Homeworks and Grading Policy](#homeworks) | [Final Exam](#final) | [Final Letter Grades](#lettergrades) | 
 
 <a name="syllabus"></a>Syllabus
 ------------------------------------------
 
 The syllabus for the course can be found [here](./syllabus.pdf). Most (but not all) of that information is summarized here.
 
-<a name="lectures"></a>Lectures
+<a name="lectures"></a>Lectures and Attendance Policy
 ------------------------------------------
 
-Lectures will be held in-person in the classroom listed on the University Registrar. Lectures will be recorded for the convenience of those who cannot intend or prefer not to for any reason. At the time of writing, mask mandates have been repealed and wearing a mask in lecture is optional. 
+**Lectures** will be held in-person in the classroom listed on the University Registrar. Lectures will be recorded for the convenience of those who cannot intend or prefer not to for any reason.
 
+The **class schedule** depends on the day of the week. On Mondays and Wednesdays, we will have a traditional lecture in which material is presented to you by the instructor. On Fridays, we will do one of three things: Take an in-person quiz (4 total), work together on a homework assignment (6 total), or cancel class. 
+
+**Class attendance is mandatory**. Every lecture, I will have a computer program randomly select 20 names from the roster. If your name is chosen and you are not present on class for any reason, then your participation score will drop by 2 percentage points (you will lose 2 of the 12 percent participation grade). I have a good reason for instituting this policy, which will be justified to you in person during the first class period.
+
+Our classroom is a **no technology zone** (except for the projector used for the slides) during traditional lectures (Mondays and Wednesdays). The purpose of this policy is to ensure students are present and paying attention to the lecture consistently. If you use technology during lecture, then I will consider you absent and deduct from your participation score. I will also justify this policy to you verbally during the first class period. On **Fridays, you will use your laptops to work on homework assignments collaboratively with others**.
 
 <a name="textbook"></a>Textbook
 ------------------------------------------
-
-You will really need to read and study material other than the slides. There are many choices where you can get more details about our topics, but a textbook is the easiest option.
 
 We’ll post readings from the following two sources (one is a textbook, the other a curated website of algorithms concepts). We urge you to read them or get that info from another source.
 
 *Introduction to Algorithms* by Cormen, et. al., 3rd edition.  Referred to as "CLRS".  UVA Library has a digital version of CLRS available [online for free](https://search.lib.virginia.edu/catalog/u6757775)
 * CP-Algorithms. A curated website of algorithm ideas for competitive programming (https://cp-algorithms.com)
 
-
-<a name="lectures"></a>Quizzes
-------------------------------------------
-
-The course is divided into **5 modules**, each of variable length (usually 6-15 lectures). The 5 modules are listed below (in no particular order):
-
-- **Linear Programming**
-- **Computational Geometry** 
-- **Approximation Algorithms**
-- **Advanced Tree Structures** 
-- **Little Algorithms** 
-
-The course contains exactly **5 quizzes** (one per module). Each quiz can be taken multiple times, and each quiz can be in one of 3 states:
-
-- **Incomplete**: The quiz has not been passed to any level of satisfaction yet.
-- **Pass**: The student has shown sufficient knowledge in this topic area. The grade on this quiz was at least **70 percent (e.g., 14/20)**.
-- **High Pass**: The student has shown significant or near perfect knowledge in this topic area. The grade on this quiz was at least **90 percent (e.g., 18/20)**.
-
-You will always earn your **highest mark** on any quiz across all attempts. So, there is never any reason not to attempt a quiz if you are unsatisfied with your grade (your grade can never decrease).
-
-<a name="final"></a>Final Exam
+<a name="homeworks"></a>Topics
 ----------------------------------------------------------
 
-There is no traditional final exam in this course. During the final exam time, you will be given one last attempt at all 5 of the course quizzes. This is your last chance to pass any quizzes that are still outstanding. If you have passed all topics (or are already happy with your final grade), then you may choose not to take the final.
+The course covers the following topics:
 
+- **Fenwick Trees**: An advanced array that allows for fast range queries
+- **Segment Trees**: An advanced tree that allows for fast range queries and updates
+- **Linear Programming:** A general advanced approach to solving many optimization problems
+- **Computational Geometry:** Some basic algorithms involving space, shapes, intersections, etc.
+- **Van Emde Boas Trees:** A neat optimization on search trees that are very fast
+- **Approximation Algorithms:** Approaches for when you can't find the optimal solution fast
 
 <a name="homeworks"></a>Homeworks
 ----------------------------------------------------------
 
-There is **one homework assignment per module**, that must be completed in order to pass that module (more on passing modules in a moment). The homeworks in this course were designed with the following goals / principles in mind:
+There will be **six programming challenges** that we will give for homework. Each assignment should be done individually, but high-level discussion is allowed. Each assignment will consist of a problem statement and sample input/output. Gradescope will be available for submissions and assignments will be autograded. The general flow for homework assignements is:
 
-- **Goal 1**: Homework should be somewhat low-stress to pass, but provide opportunity for deep, reflective practice with the material.
-- **Goal 2**: Every student should be required to show effort / progress on homework. Essentially, a student should provide evidence of engaging with the homework even if the quality of the work is not yet perfect.
-- **Goal 3**: Homeworks should be submittable at any time during the semester.
-
-For these reasons the homework in this course is required, with recommended deadlines (with automatic extensions), and can be submitted as many times as required. The grading state for each assignment is one of the following:
-
-- **Incomplete**: The student has not yet shown clear effort and engagement with the assignment. The homework is not at a passing level yet.
-- **Pass**: The assignment is at a passing level, though may not be perfect or mastered yet. The student is encouraged to continue engaging with perfecting the assignment even though they have passed (if applicable). The correlates to an **80% or higher score on a homework assignment**.
+- **Friday before due date:** The assignment will be released in lecture. We will discuss it briefly and everybody will work on it during class. I will walk around and help everyone get intuition on how to approach the problem and some of the tricks that needs to be overcome. During this class period you may collaborate with your neighbors and peers.
+- **Following Wednesday:** The assignment is due on gradescope by midnight.
+- **Monday after that:** Everybody gets an automatic extension to the following Monday evening. This is NOT intended to be used unless you absolutely need it. NO extensions will be given beyond this for ANY REASON.
 
 
-<a name="passing"></a>Passing a Module
+<a name="lectures"></a>Quizzes
+------------------------------------------
+
+There will be four quizzes given throughout the term. Please reference the course schedule for details on the dates and content of each quiz. Each quiz will be short and is meant to quickly test your basic understanding of the concepts from class. These will be held in-person, in-class, on specific **Fridays** throughout the term. The schedule can be referenced to see which Friday class periods have quizzes scheduled.
+
+
+<a name="final"></a>Final Project
 ----------------------------------------------------------
 
-As stated earlier, the course contains **8 modules**. Each module, at any time, is always in one of the following states:
+There is **NO final exam** for this class. Instead, there is a **final project**. Each student will join a group of other students (3-4 per group) and be given an **algorithm** to study on their own. The group will need to do the following for their algorithm:
 
-- **Incomplete**: At least one of the homeworks or quiz for this module is still incomplete.
-- **Pass**: There are two ways to pass a module. One of the following must be true:
-	- All homeworks AND the quiz have both been passed. The quiz is NOT at the high pass level.
-	- One or more homework is Incomplete AND the quiz has been high-passed. 
-- **High Pass**: The homeworks are all passed AND the quiz is passed at the *high-pass level*.
+- **Learn it:** Study and understand the algorithm you were assigned / chosen.
+- **Apply it:** Design a homework assignment that requires some application of the algorithm you studied.
+- **Solve it:** Write the solution to your homework assignment, along with test cases that test the solution.
+- **Teach it:** Create a slide-deck that teaches this algorithm to the class and present it to everybody in lecture.
 
-<a name="lettergrades"></a>Final Letter Grades
+More details on this project will be provided once it is available.
+
+
+<a name="lettergrades"></a>Grading
 ----------------------------------------------------------
 
-Your letter grade in this course corresponds to the number **MODULES you have passed** (Note this is **MODULES** passed, not homeworks or quizzes. To pass a module, you must pass ALL the homework AND the quiz in that module). Please note the following things when reading this grading chart:
+This course will use a **standard weighted-average grading system**. The grade breakdown is shown below:
 
-- **Breadth matters more than depth**: Note that passing MORE modules is amost always better than increasing a passing module from *pass* to *high pass*. For example, if you have 7 modules passed (2 of which are high-pass). Then passing a new module will raise your grade to a *B-*, while raising an old module to high-pass will raise your grade to only a *C+*.
-- **Depth starts to matter more once you reach a B-**: Once you reach a grade of *B-*, getting the modules to the high-pass level matters more.
 
-**UPDATE: 11/15/22 - Everybody earns one free high-pass (module 8). Make sure to take this into account when calculating your grade.**
+- **Homework (30 percent)**: There will be six programming challenges which account in total for 30 percent of the final grade.
+- **Quizzes (40 percent)**: There will be four in-class quizzes which account for 40 percent of the final grade.
+- **Attendance (12 percent)**: Attendance and participation are required in this course. Every lecture, a random subset of students will be chosen by a computer program for attendance. If your name is chosen and you are not present, you will lose 2 of these 12 percentage points.
+- **Final Project (18 percent)**: There will be a final project in which groups of students study, implement, prepare, and present one advanced algorithm of their choosing. Details will be available on the course website.
 
-**UPDATE: 11/18/22 - Everybody will earn a free high-pass on module 7 as well. Remember to account for this when calculating your grade (everyone has 2 modules passed, 2 of them high-pass BEFORE considering hw and quizzes passed during the semester.**
 
-| Letter Grade | Modules Passed | Modules High-Pass |
-|:--------------:|:---:|:---:|
-| F | - | - |
-| D- | 3 | 0 |
-| D | - | 1 |
-| D+ | - | 2 |
-| C- | 4 | 0 |
-| C | - | 2 |
-| C+ | - | 3 |
-| B- | 5 | 0 |
-| B | - | 2 |
-| B+ | - | 3 |
-| A- | - | 4 |
-| A | - | 5 |
-
-**Legend**
-
-- A **blank row** translates to *No change from the row above*. This makes the table easier to read.
-- The number of modules at **high pass** is NOT summative. For example, the row for **B** says 8 modules passed, and 3 of those 8 must be at the high-pass level (It is NOT the case that you need 3 additional modules at the high-pass level)
 
 
 

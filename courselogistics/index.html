@@ -28,25 +28,38 @@
 <h1 id="advanced-data-structures-and-algorithms">Advanced Data
 Structures and Algorithms</h1>
 <p><a href="../readme.html">Back to main page</a></p>
-<p><a href="#syllabus">Syllabus</a> | <a href="#lectures">Lectures</a> |
-<a href="#textbook">Textbook</a> |<a href="#quizzes">Quizzes</a> | <a
-href="#homeworks">Homeworks and Grading Policy</a> | <a
-href="#final">Final Exam</a> | <a href="#lettergrades">Final Letter
-Grades</a> |</p>
 <h2 id="syllabus"><a name="syllabus"></a>Syllabus</h2>
 <p>The syllabus for the course can be found <a
 href="./syllabus.pdf">here</a>. Most (but not all) of that information
 is summarized here.</p>
-<h2 id="lectures"><a name="lectures"></a>Lectures</h2>
-<p>Lectures will be held in-person in the classroom listed on the
-University Registrar. Lectures will be recorded for the convenience of
-those who cannot intend or prefer not to for any reason. At the time of
-writing, mask mandates have been repealed and wearing a mask in lecture
-is optional.</p>
+<h2 id="lectures-and-attendance-policy"><a name="lectures"></a>Lectures
+and Attendance Policy</h2>
+<p><strong>Lectures</strong> will be held in-person in the classroom
+listed on the University Registrar. Lectures will be recorded for the
+convenience of those who cannot intend or prefer not to for any
+reason.</p>
+<p>The <strong>class schedule</strong> depends on the day of the week.
+On Mondays and Wednesdays, we will have a traditional lecture in which
+material is presented to you by the instructor. On Fridays, we will do
+one of three things: Take an in-person quiz (4 total), work together on
+a homework assignment (6 total), or cancel class.</p>
+<p><strong>Class attendance is mandatory</strong>. Every lecture, I will
+have a computer program randomly select 20 names from the roster. If
+your name is chosen and you are not present on class for any reason,
+then your participation score will drop by 2 percentage points (you will
+lose 2 of the 12 percent participation grade). I have a good reason for
+instituting this policy, which will be justified to you in person during
+the first class period.</p>
+<p>Our classroom is a <strong>no technology zone</strong> (except for
+the projector used for the slides) during traditional lectures (Mondays
+and Wednesdays). The purpose of this policy is to ensure students are
+present and paying attention to the lecture consistently. If you use
+technology during lecture, then I will consider you absent and deduct
+from your participation score. I will also justify this policy to you
+verbally during the first class period. On <strong>Fridays, you will use
+your laptops to work on homework assignments collaboratively with
+others</strong>.</p>
 <h2 id="textbook"><a name="textbook"></a>Textbook</h2>
-<p>You will really need to read and study material other than the
-slides. There are many choices where you can get more details about our
-topics, but a textbook is the easiest option.</p>
 <p>We’ll post readings from the following two sources (one is a
 textbook, the other a curated website of algorithms concepts). We urge
 you to read them or get that info from another source.</p>
@@ -56,191 +69,87 @@ available <a
 href="https://search.lib.virginia.edu/catalog/u6757775">online for
 free</a> * CP-Algorithms. A curated website of algorithm ideas for
 competitive programming (https://cp-algorithms.com)</p>
-<h2 id="quizzes"><a name="lectures"></a>Quizzes</h2>
-<p>The course is divided into <strong>5 modules</strong>, each of
-variable length (usually 6-15 lectures). The 5 modules are listed below
-(in no particular order):</p>
+<h2 id="topics"><a name="homeworks"></a>Topics</h2>
+<p>The course covers the following topics:</p>
 <ul>
-<li><strong>Linear Programming</strong></li>
-<li><strong>Computational Geometry</strong></li>
-<li><strong>Approximation Algorithms</strong></li>
-<li><strong>Advanced Tree Structures</strong></li>
-<li><strong>Little Algorithms</strong></li>
+<li><strong>Fenwick Trees</strong>: An advanced array that allows for
+fast range queries</li>
+<li><strong>Segment Trees</strong>: An advanced tree that allows for
+fast range queries and updates</li>
+<li><strong>Linear Programming:</strong> A general advanced approach to
+solving many optimization problems</li>
+<li><strong>Computational Geometry:</strong> Some basic algorithms
+involving space, shapes, intersections, etc.</li>
+<li><strong>Van Emde Boas Trees:</strong> A neat optimization on search
+trees that are very fast</li>
+<li><strong>Approximation Algorithms:</strong> Approaches for when you
+can’t find the optimal solution fast</li>
 </ul>
-<p>The course contains exactly <strong>5 quizzes</strong> (one per
-module). Each quiz can be taken multiple times, and each quiz can be in
-one of 3 states:</p>
-<ul>
-<li><strong>Incomplete</strong>: The quiz has not been passed to any
-level of satisfaction yet.</li>
-<li><strong>Pass</strong>: The student has shown sufficient knowledge in
-this topic area. The grade on this quiz was at least <strong>70 percent
-(e.g., 14/20)</strong>.</li>
-<li><strong>High Pass</strong>: The student has shown significant or
-near perfect knowledge in this topic area. The grade on this quiz was at
-least <strong>90 percent (e.g., 18/20)</strong>.</li>
-</ul>
-<p>You will always earn your <strong>highest mark</strong> on any quiz
-across all attempts. So, there is never any reason not to attempt a quiz
-if you are unsatisfied with your grade (your grade can never
-decrease).</p>
-<h2 id="final-exam"><a name="final"></a>Final Exam</h2>
-<p>There is no traditional final exam in this course. During the final
-exam time, you will be given one last attempt at all 5 of the course
-quizzes. This is your last chance to pass any quizzes that are still
-outstanding. If you have passed all topics (or are already happy with
-your final grade), then you may choose not to take the final.</p>
 <h2 id="homeworks"><a name="homeworks"></a>Homeworks</h2>
-<p>There is <strong>one homework assignment per module</strong>, that
-must be completed in order to pass that module (more on passing modules
-in a moment). The homeworks in this course were designed with the
-following goals / principles in mind:</p>
+<p>There will be <strong>six programming challenges</strong> that we
+will give for homework. Each assignment should be done individually, but
+high-level discussion is allowed. Each assignment will consist of a
+problem statement and sample input/output. Gradescope will be available
+for submissions and assignments will be autograded. The general flow for
+homework assignements is:</p>
 <ul>
-<li><strong>Goal 1</strong>: Homework should be somewhat low-stress to
-pass, but provide opportunity for deep, reflective practice with the
-material.</li>
-<li><strong>Goal 2</strong>: Every student should be required to show
-effort / progress on homework. Essentially, a student should provide
-evidence of engaging with the homework even if the quality of the work
-is not yet perfect.</li>
-<li><strong>Goal 3</strong>: Homeworks should be submittable at any time
-during the semester.</li>
+<li><strong>Friday before due date:</strong> The assignment will be
+released in lecture. We will discuss it briefly and everybody will work
+on it during class. I will walk around and help everyone get intuition
+on how to approach the problem and some of the tricks that needs to be
+overcome. During this class period you may collaborate with your
+neighbors and peers.</li>
+<li><strong>Following Wednesday:</strong> The assignment is due on
+gradescope by midnight.</li>
+<li><strong>Monday after that:</strong> Everybody gets an automatic
+extension to the following Monday evening. This is NOT intended to be
+used unless you absolutely need it. NO extensions will be given beyond
+this for ANY REASON.</li>
 </ul>
-<p>For these reasons the homework in this course is required, with
-recommended deadlines (with automatic extensions), and can be submitted
-as many times as required. The grading state for each assignment is one
-of the following:</p>
+<h2 id="quizzes"><a name="lectures"></a>Quizzes</h2>
+<p>There will be four quizzes given throughout the term. Please
+reference the course schedule for details on the dates and content of
+each quiz. Each quiz will be short and is meant to quickly test your
+basic understanding of the concepts from class. These will be held
+in-person, in-class, on specific <strong>Fridays</strong> throughout the
+term. The schedule can be referenced to see which Friday class periods
+have quizzes scheduled.</p>
+<h2 id="final-project"><a name="final"></a>Final Project</h2>
+<p>There is <strong>NO final exam</strong> for this class. Instead,
+there is a <strong>final project</strong>. Each student will join a
+group of other students (3-4 per group) and be given an
+<strong>algorithm</strong> to study on their own. The group will need to
+do the following for their algorithm:</p>
 <ul>
-<li><strong>Incomplete</strong>: The student has not yet shown clear
-effort and engagement with the assignment. The homework is not at a
-passing level yet.</li>
-<li><strong>Pass</strong>: The assignment is at a passing level, though
-may not be perfect or mastered yet. The student is encouraged to
-continue engaging with perfecting the assignment even though they have
-passed (if applicable). The correlates to an <strong>80% or higher score
-on a homework assignment</strong>.</li>
+<li><strong>Learn it:</strong> Study and understand the algorithm you
+were assigned / chosen.</li>
+<li><strong>Apply it:</strong> Design a homework assignment that
+requires some application of the algorithm you studied.</li>
+<li><strong>Solve it:</strong> Write the solution to your homework
+assignment, along with test cases that test the solution.</li>
+<li><strong>Teach it:</strong> Create a slide-deck that teaches this
+algorithm to the class and present it to everybody in lecture.</li>
 </ul>
-<h2 id="passing-a-module"><a name="passing"></a>Passing a Module</h2>
-<p>As stated earlier, the course contains <strong>8 modules</strong>.
-Each module, at any time, is always in one of the following states:</p>
+<p>More details on this project will be provided once it is
+available.</p>
+<h2 id="grading"><a name="lettergrades"></a>Grading</h2>
+<p>This course will use a <strong>standard weighted-average grading
+system</strong>. The grade breakdown is shown below:</p>
 <ul>
-<li><strong>Incomplete</strong>: At least one of the homeworks or quiz
-for this module is still incomplete.</li>
-<li><strong>Pass</strong>: There are two ways to pass a module. One of
-the following must be true:
-<ul>
-<li>All homeworks AND the quiz have both been passed. The quiz is NOT at
-the high pass level.</li>
-<li>One or more homework is Incomplete AND the quiz has been
-high-passed.</li>
-</ul></li>
-<li><strong>High Pass</strong>: The homeworks are all passed AND the
-quiz is passed at the <em>high-pass level</em>.</li>
-</ul>
-<h2 id="final-letter-grades"><a name="lettergrades"></a>Final Letter
-Grades</h2>
-<p>Your letter grade in this course corresponds to the number
-<strong>MODULES you have passed</strong> (Note this is
-<strong>MODULES</strong> passed, not homeworks or quizzes. To pass a
-module, you must pass ALL the homework AND the quiz in that module).
-Please note the following things when reading this grading chart:</p>
-<ul>
-<li><strong>Breadth matters more than depth</strong>: Note that passing
-MORE modules is amost always better than increasing a passing module
-from <em>pass</em> to <em>high pass</em>. For example, if you have 7
-modules passed (2 of which are high-pass). Then passing a new module
-will raise your grade to a <em>B-</em>, while raising an old module to
-high-pass will raise your grade to only a <em>C+</em>.</li>
-<li><strong>Depth starts to matter more once you reach a B-</strong>:
-Once you reach a grade of <em>B-</em>, getting the modules to the
-high-pass level matters more.</li>
-</ul>
-<p><strong>UPDATE: 11/15/22 - Everybody earns one free high-pass (module
-8). Make sure to take this into account when calculating your
-grade.</strong></p>
-<p><strong>UPDATE: 11/18/22 - Everybody will earn a free high-pass on
-module 7 as well. Remember to account for this when calculating your
-grade (everyone has 2 modules passed, 2 of them high-pass BEFORE
-considering hw and quizzes passed during the semester.</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">Letter Grade</th>
-<th style="text-align: center;">Modules Passed</th>
-<th style="text-align: center;">Modules High-Pass</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">F</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: center;">D-</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">0</td>
-</tr>
-<tr>
-<td style="text-align: center;">D</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">1</td>
-</tr>
-<tr>
-<td style="text-align: center;">D+</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr>
-<td style="text-align: center;">C-</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">0</td>
-</tr>
-<tr>
-<td style="text-align: center;">C</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr>
-<td style="text-align: center;">C+</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr>
-<td style="text-align: center;">B-</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">0</td>
-</tr>
-<tr>
-<td style="text-align: center;">B</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr>
-<td style="text-align: center;">B+</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr>
-<td style="text-align: center;">A-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">4</td>
-</tr>
-<tr>
-<td style="text-align: center;">A</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">5</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Legend</strong></p>
-<ul>
-<li>A <strong>blank row</strong> translates to <em>No change from the
-row above</em>. This makes the table easier to read.</li>
-<li>The number of modules at <strong>high pass</strong> is NOT
-summative. For example, the row for <strong>B</strong> says 8 modules
-passed, and 3 of those 8 must be at the high-pass level (It is NOT the
-case that you need 3 additional modules at the high-pass level)</li>
+<li><strong>Homework (30 percent)</strong>: There will be six
+programming challenges which account in total for 30 percent of the
+final grade.</li>
+<li><strong>Quizzes (40 percent)</strong>: There will be four in-class
+quizzes which account for 40 percent of the final grade.</li>
+<li><strong>Attendance (12 percent)</strong>: Attendance and
+participation are required in this course. Every lecture, a random
+subset of students will be chosen by a computer program for attendance.
+If your name is chosen and you are not present, you will lose 2 of these
+12 percentage points.</li>
+<li><strong>Final Project (18 percent)</strong>: There will be a final
+project in which groups of students study, implement, prepare, and
+present one advanced algorithm of their choosing. Details will be
+available on the course website.</li>
 </ul>
 </body>
 </html>
