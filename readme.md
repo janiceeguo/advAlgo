@@ -40,7 +40,14 @@ We have one instructor and multiple **TAs** for the course. Their names and emai
 <a name="officehours"></a>Office Hours Description and Schedule
 ------------------------------------------
 
-**Office Hours Coming Soon!**
+All office hours are held in Thornton Stacks. This is subject to change if we find a better room.
+
+| TA Name | Office Hour Times | Location |
+|----------|------------------------|------------------------|
+| Floryan | TBD | Rice 203 |
+| Nicholas | Fri. 1:30-3:30pm | Thornton Stacks |
+| Vagul | Mon. 2-4pm | Thornton Stacks | 
+| Varun | TBD | Thornton Stacks |
 
 
 <a name="contributing"></a>Contributing to this Repository
