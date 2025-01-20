@@ -33,8 +33,8 @@ We have one instructor and multiple **TAs** for the course. Their names and emai
 |-|-|-|
 | Mark Floryan | Instructor | [mrf8t@virginia.edu](mailto:mrf8t@virginia.edu) |
 | Nicholas Winschel| TA | [pvz6tx@virginia.edu](mailto:pvz6tx@virginia.edu) |
-| Varun | TA | [cgm5sa@virginia.edu](mailto:cgm5sa@virginia.edu) |
-| Vagul | Head TA | [dub5nq@virginia.edu](mailto:dub5nq@virginia.edu) |
+| Varun Vejalla | TA | [cgm5sa@virginia.edu](mailto:cgm5sa@virginia.edu) |
+| Vagul Mahadevan | TA | [dub5nq@virginia.edu](mailto:dub5nq@virginia.edu) |
 
 
 <a name="officehours"></a>Office Hours Description and Schedule
@@ -44,10 +44,13 @@ All office hours are held in Thornton Stacks. This is subject to change if we fi
 
 | TA Name | Office Hour Times | Location |
 |----------|------------------------|------------------------|
-| Floryan | TBD | Rice 203 |
-| Nicholas | Fri. 1:30-3:30pm | Thornton Stacks |
-| Vagul | Mon. 2-4pm | Thornton Stacks | 
+| Floryan | Mon. 10:30am-12:00pm[^1], Thu. 12:30pm-2:00pm[^2] | Rice 203 |
+| Nicholas | Fri. 1:30pm-3:30pm | Thornton Stacks |
+| Vagul | Mon. 2:00pm-4:00pm | Thornton Stacks | 
 | Varun | TBD | Thornton Stacks |
+
+[^1]: Adv. Algo. students are given preference during my Monday office hours. If any DMT2 students are present, you will be given priority in all cases.
+[^2]: DMT2 students are given preference during my Thursday office hours. If any DMT2 students are present, they will given priority and you will have to wait. 
 
 
 <a name="contributing"></a>Contributing to this Repository
