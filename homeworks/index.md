@@ -8,7 +8,7 @@ Advanced Data Structures and Algorithms
 <a name="introduction"></a>How to Submit Assignments
 --------------------------------------- 
 
-We will be using [Gradescope](https://gradescope.com) for this course. If necessary, I will post more details about how to submit to Gradescope.
+We will be using [Gradescope](https://gradescope.com) for this course. You can learn more about how to use Gradescope for this course [here](./gradescope.html).
 
 
 <a name="introduction"></a>Assignments
