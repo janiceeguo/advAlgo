@@ -17,7 +17,7 @@ We will be using [Gradescope](https://gradescope.com) for this course. You can l
 | HW Num. | Topic Name | Release Date | Due Date | PDF |
 |--|------|----|----|---|
 | HW 1 | Introduction / WarmUp | Fri. Jan. 24 | Wed. Jan. 29 | [Palindromes](./palindromes.pdf) |
-| HW 2 | Fenwick Trees | Fri. Jan. 31 | Wed. Feb. 5 | Coming Soon! |
+| HW 2 | Fenwick Trees | Fri. Jan. 31 | Wed. Feb. 5 | [File Storage](./filestorage.pdf)] |
 | HW 3 | Segment Trees | Fri. Feb. 14 | Wed. Feb. 19 | Coming Soon! |
 | HW 4 | Linear Programming | Fri. Feb. 28 | Wed. Mar. 5 | Coming Soon! |
 | HW 5 | Computational Geometry | Fri. Mar. 28  | Wed. Apr. 2 | Coming Soon! |
