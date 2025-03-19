@@ -48,7 +48,7 @@ All office hours are held in Thornton Stacks. This is subject to change if we fi
 | Floryan | Mon. 10:30am-12:00pm[^1], Thu. 12:30pm-2:00pm[^2] | Rice 203 |
 | Nicholas | Fri. 1:30pm-3:30pm | Thornton Stacks |
 | Vagul | Mon. 2:00pm-4:00pm | Thornton Stacks | 
-| Varun | Wed. 1:15pm-3:15pm | Thornton Stacks |
+| Varun | Wed. 1:25pm-3:25pm | Thornton Stacks |
 
 [^1]: Adv. Algo. students are given preference during my Monday office hours. If any DMT2 students are present, you will be given priority in all cases.
 [^2]: DMT2 students are given preference during my Thursday office hours. If any DMT2 students are present, they will given priority and you will have to wait. 
