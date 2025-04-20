@@ -41,9 +41,37 @@ def is_prime(n, k = 5):
 def fartcoin_hash(s):
     h = 0
     for char in s:
-        h = h ^ ord(char)
         h = h << 1
+        h = h ^ ord(char)
     return h
+
+def fnv1a_hash(data):
+    """
+    Implements the FNV-1a hash algorithm for strings.
+    
+    Args:
+        data: The input string to hash
+        
+    Returns:
+        The 32-bit FNV-1a hash value as an integer
+    """
+    # FNV constants for 32-bit hash
+    FNV_PRIME = 16777619
+    OFFSET_BASIS = 2166136261
+    
+    # Initialize hash with offset basis
+    hash_value = OFFSET_BASIS
+    
+    # Process each byte in the input string
+    for byte in data.encode('utf-8'):
+        # XOR the current byte with the hash
+        hash_value ^= byte
+        # Multiply by the FNV prime
+        hash_value *= FNV_PRIME
+        # Keep only 32 bits
+        hash_value &= 0xFFFFFFFF
+        
+    return hash_value
 
 
 if __name__ == "__main__":
@@ -60,9 +88,12 @@ if __name__ == "__main__":
         if len(nonce) < 5:
             print(f"{username} rejected {accepted_count}")
             continue
-
+            
         new_blockchain = blockchain + nonce
         h = fartcoin_hash(new_blockchain)
+        #h = fnv1a_hash(new_blockchain)
+
+
 
         if is_prime(h):
             accepted_count += 1
