@@ -4,7 +4,7 @@ Go [back to home page](../index.md)
 
 ## Executive Summary
 
-- [Executive Summary](#executiveSummary.pdf)
+- [Executive Summary](./executiveSummary.pdf)
 
 ## Implementation
 
