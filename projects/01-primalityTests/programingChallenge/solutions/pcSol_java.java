@@ -2,6 +2,7 @@ import java.math.BigInteger;
 import java.util.Random;
 import java.util.Scanner;
 import java.security.SecureRandom;
+// see primalityTests.java under implementation for a more detailed explanation
 
 public class pcSol_java {
     private SecureRandom random = new SecureRandom();

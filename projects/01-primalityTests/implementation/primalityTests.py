@@ -17,7 +17,7 @@ def division_prime(n):
 # a helper function used in the Fermat and Miller-Rabin tests to efficiently compute large exponents modulo a number
 def binary_power(base, exp, mod):
     result = 1
-    # the modulus operator does not interfere with multimplication, so we can perform a modulus at each step
+    # the modulus operator does not interfere with multiplication, so we can perform a modulus at each step
     base %= mod
     while exp:
         # if the binary representation of the exponent has a 1 at the end then we multiply the current base to the result and perform a modulus

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+// see primalityTests.cpp under implementation for a more detailed explanation
 
 #define u128 __uint128_t
 #define K 15
