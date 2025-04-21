@@ -31,7 +31,7 @@ Go [back to home page](../index.md)
   - Solutions:
     - [C++](./programmingChallenge/solutions/pcSol_cpp.cpp)
     - [Java](./programmingChallenge/solutions/pcSol_java.java)
-    - [C++](./programmingChallenge/solutions/pcSol_python.py)
+    - [Python](./programmingChallenge/solutions/pcSol_python.py)
   - Test Cases:
     - [test input 1](./programmingChallenge/io/test.in.1)
     - [test output 1](./programmingChallenge/io/test.out.1)
