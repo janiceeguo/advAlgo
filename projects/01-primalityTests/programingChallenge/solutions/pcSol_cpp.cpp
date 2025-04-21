@@ -62,16 +62,6 @@ u128 fartcoinHash(std::string &s) {
 	return h;
 }
 
-std::string u128_to_string(__uint128_t value) {
-	if (value == 0) return "0";
-	std::string result;
-	while (value > 0) {
-		result = char('0' + value % 10) + result;
-		value /= 10;
-	}
-	return result;
-}
-
 int main(int argc, char *argv[]) {
 	int n;
 	std::cin >> n;
@@ -86,7 +76,6 @@ int main(int argc, char *argv[]) {
 
 		temp = chain + nonce;
 		h = fartcoinHash(temp);
-		std::cout << "Hash: " << u128_to_string(h) << std::endl;
 
 		if (isPrime(h)) {
 			chainLength++;

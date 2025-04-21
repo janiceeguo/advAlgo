@@ -61,10 +61,6 @@ if __name__ == "__main__":
             continue
         username, nonce = line.split(maxsplit=1)
 
-        if len(nonce) < 5:
-            print(f"{username} rejected {accepted_count}")
-            continue
-
         new_blockchain = blockchain + nonce
         h = fartcoin_hash(new_blockchain)
 

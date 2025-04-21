@@ -112,10 +112,6 @@ public class pcSol_java {
             
             nonce = parts[1];
             
-            if (nonce.length() < 5) {
-                System.out.println(username + " rejected " + acceptedCount);
-                continue;
-            }
             
             String newBlockchain = blockchain + nonce;
             BigInteger h = fartcoinHash(newBlockchain);
